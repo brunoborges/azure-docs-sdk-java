@@ -244,7 +244,7 @@ items:
 
             </code> with the body in a JSON list format. It cannot be<code>null 
 
-            </code> , or empty, if the type is different than <code>unknown</code>. </p>
+            </code> , or empty, if the type is different than `unknown`. </p>
     - id: continuationToken
       type: "26831127"
       description: >-

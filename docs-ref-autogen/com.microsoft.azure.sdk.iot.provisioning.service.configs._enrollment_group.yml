@@ -639,7 +639,7 @@ items:
       description: >-
         <p>the<code>AttestationMechanism 
 
-            </code> with the new attestation mechanism. It can be <code>tpm</code> or <code>x509</code>. </p>
+            </code> with the new attestation mechanism. It can be `tpm` or `x509`. </p>
   exceptions:
   - type: 3c87bd19
     description: >-
@@ -703,7 +703,7 @@ items:
   summary: >-
     <p>Setter for the enrollmentGroupId.</p>
 
-    <p>A valid enrollment group Id shall follow this criteria. A case-sensitive string (up to 128 char long) of ASCII 7-bit alphanumeric chars<itemizedlist><listitem><p>{'-', ':', '.', '+', '', '_', '#', '*', '?', '!', '(', ')', ',', '=', '@', ';', '$', '''}. </p></listitem></itemizedlist></p>
+    <p>A valid enrollment group Id shall follow this criteria. A case-sensitive string (up to 128 char long) of ASCII 7-bit alphanumeric chars + {'-', ':', '.', '+', '', '_', '#', '*', '?', '!', '(', ')', ',', '=', '@', ';', '$', '''}. </p>
 
     <p></p>
   syntax:
@@ -818,7 +818,7 @@ items:
   summary: >-
     <p>Setter for the iotHubHostName.</p>
 
-    <p>A valid iothub host name shall follow this criteria. A case-sensitive string (up to 128 char long) of ASCII 7-bit alphanumeric chars<itemizedlist><listitem><p>{'-', ':', '.', '+', '', '_', '#', '*', '?', '!', '(', ')', ',', '=', '@', ';', '$', '''}. A valid host name shall have, at least 2 parts separated by '.'. </p></listitem></itemizedlist></p>
+    <p>A valid iothub host name shall follow this criteria. A case-sensitive string (up to 128 char long) of ASCII 7-bit alphanumeric chars + {'-', ':', '.', '+', '', '_', '#', '*', '?', '!', '(', ')', ',', '=', '@', ';', '$', '''}. A valid host name shall have, at least 2 parts separated by '.'. </p>
 
     <p></p>
   syntax:

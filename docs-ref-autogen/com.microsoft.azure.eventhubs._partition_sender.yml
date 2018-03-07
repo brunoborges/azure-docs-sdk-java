@@ -226,9 +226,9 @@ items:
 
     <p>Sending a batch of <xref uid="com.microsoft.azure.eventhubs._event_data" data-throw-if-not-resolved="false">EventData</xref>'s is useful in the following cases: <pre>
 
-    i.  Efficient send - sending a batch of <xref uid="com.microsoft.azure.eventhubs._event_data" data-throw-if-not-resolved="false">EventData</xref> maximizes the overall throughput by optimally using the number of sessions created to EventHubs' service.
+    i.	Efficient send - sending a batch of <xref uid="com.microsoft.azure.eventhubs._event_data" data-throw-if-not-resolved="false">EventData</xref> maximizes the overall throughput by optimally using the number of sessions created to EventHubs' service.
 
-    ii. Send multiple <xref uid="com.microsoft.azure.eventhubs._event_data" data-throw-if-not-resolved="false">EventData</xref>'s in a Transaction. To achieve ACID properties, the Gateway Service will forward all <xref uid="com.microsoft.azure.eventhubs._event_data" data-throw-if-not-resolved="false">EventData</xref>'s in the batch to a single EventHubs' partition.
+    ii.	Send multiple <xref uid="com.microsoft.azure.eventhubs._event_data" data-throw-if-not-resolved="false">EventData</xref>'s in a Transaction. To achieve ACID properties, the Gateway Service will forward all <xref uid="com.microsoft.azure.eventhubs._event_data" data-throw-if-not-resolved="false">EventData</xref>'s in the batch to a single EventHubs' partition.
 
     </pre></p>
 
@@ -271,9 +271,9 @@ items:
 
     <p>Sending a batch of <xref uid="com.microsoft.azure.eventhubs._event_data" data-throw-if-not-resolved="false">EventData</xref>'s is useful in the following cases: <pre>
 
-    i.  Efficient send - sending a batch of <xref uid="com.microsoft.azure.eventhubs._event_data" data-throw-if-not-resolved="false">EventData</xref> maximizes the overall throughput by optimally using the number of sessions created to EventHubs' service.
+    i.	Efficient send - sending a batch of <xref uid="com.microsoft.azure.eventhubs._event_data" data-throw-if-not-resolved="false">EventData</xref> maximizes the overall throughput by optimally using the number of sessions created to EventHubs' service.
 
-    ii. Send multiple <xref uid="com.microsoft.azure.eventhubs._event_data" data-throw-if-not-resolved="false">EventData</xref>'s in a Transaction. To achieve ACID properties, the Gateway Service will forward all <xref uid="com.microsoft.azure.eventhubs._event_data" data-throw-if-not-resolved="false">EventData</xref>'s in the batch to a single EventHubs' partition.
+    ii.	Send multiple <xref uid="com.microsoft.azure.eventhubs._event_data" data-throw-if-not-resolved="false">EventData</xref>'s in a Transaction. To achieve ACID properties, the Gateway Service will forward all <xref uid="com.microsoft.azure.eventhubs._event_data" data-throw-if-not-resolved="false">EventData</xref>'s in the batch to a single EventHubs' partition.
 
     </pre></p>
 
@@ -592,9 +592,9 @@ references:
 
     <p>Sending a batch of <xref uid="com.microsoft.azure.eventhubs._event_data" data-throw-if-not-resolved="false">EventData</xref>'s is useful in the following cases: <pre>
 
-    i.  Efficient send - sending a batch of <xref uid="com.microsoft.azure.eventhubs._event_data" data-throw-if-not-resolved="false">EventData</xref> maximizes the overall throughput by optimally using the number of sessions created to EventHubs' service.
+    i.	Efficient send - sending a batch of <xref uid="com.microsoft.azure.eventhubs._event_data" data-throw-if-not-resolved="false">EventData</xref> maximizes the overall throughput by optimally using the number of sessions created to EventHubs' service.
 
-    ii. Send multiple <xref uid="com.microsoft.azure.eventhubs._event_data" data-throw-if-not-resolved="false">EventData</xref>'s in a Transaction. To achieve ACID properties, the Gateway Service will forward all <xref uid="com.microsoft.azure.eventhubs._event_data" data-throw-if-not-resolved="false">EventData</xref>'s in the batch to a single EventHubs' partition.
+    ii.	Send multiple <xref uid="com.microsoft.azure.eventhubs._event_data" data-throw-if-not-resolved="false">EventData</xref>'s in a Transaction. To achieve ACID properties, the Gateway Service will forward all <xref uid="com.microsoft.azure.eventhubs._event_data" data-throw-if-not-resolved="false">EventData</xref>'s in the batch to a single EventHubs' partition.
 
     </pre></p>
 
