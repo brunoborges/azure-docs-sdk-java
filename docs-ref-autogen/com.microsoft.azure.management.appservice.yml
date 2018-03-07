@@ -3481,19 +3481,6 @@ references:
   summary: <p>A function deployment slot definition allowing the configuration to clone from to be specified. </p>
   syntax:
     content: public interface WithConfiguration
-- uid: com.microsoft.azure.management.appservice._web_app_base._update_stages._with_connection_string
-  parent: com.microsoft.azure.management.appservice
-  href: com.microsoft.azure.management.appservice._web_app_base._update_stages._with_connection_string.yml
-  name: WebAppBase.UpdateStages.WithConnectionString<FluentT>
-  nameWithType: WebAppBase.UpdateStages.WithConnectionString<FluentT>
-  fullName: com.microsoft.azure.management.appservice.WebAppBase.UpdateStages.WithConnectionString<FluentT>
-  type: Interface
-  summary: <p>A web app update stage allowing connection strings to be set. </p>
-  syntax:
-    content: public interface WithConnectionString<FluentT>
-    typeParameters:
-    - type: dee0e3c3
-      description: <p>the type of the resource </p>
 - uid: com.microsoft.azure.management.appservice._web_app_base._definition_sea63cf931f9608d9ff58201c24d51b20
   parent: com.microsoft.azure.management.appservice
   href: com.microsoft.azure.management.appservice._web_app_base._definition_sea63cf931f9608d9ff58201c24d51b20.yml
@@ -3502,6 +3489,19 @@ references:
   fullName: com.microsoft.azure.management.appservice.WebAppBase.DefinitionStages.WithConnectionString<FluentT>
   type: Interface
   summary: <p>A web app definition stage allowing connection strings to be set. </p>
+  syntax:
+    content: public interface WithConnectionString<FluentT>
+    typeParameters:
+    - type: dee0e3c3
+      description: <p>the type of the resource </p>
+- uid: com.microsoft.azure.management.appservice._web_app_base._update_stages._with_connection_string
+  parent: com.microsoft.azure.management.appservice
+  href: com.microsoft.azure.management.appservice._web_app_base._update_stages._with_connection_string.yml
+  name: WebAppBase.UpdateStages.WithConnectionString<FluentT>
+  nameWithType: WebAppBase.UpdateStages.WithConnectionString<FluentT>
+  fullName: com.microsoft.azure.management.appservice.WebAppBase.UpdateStages.WithConnectionString<FluentT>
+  type: Interface
+  summary: <p>A web app update stage allowing connection strings to be set. </p>
   syntax:
     content: public interface WithConnectionString<FluentT>
     typeParameters:
@@ -3613,16 +3613,6 @@ references:
     typeParameters:
     - type: dee0e3c3
       description: <p>the type of the resource </p>
-- uid: com.microsoft.azure.management.appservice._web_app._update_stages._with_credentials
-  parent: com.microsoft.azure.management.appservice
-  href: com.microsoft.azure.management.appservice._web_app._update_stages._with_credentials.yml
-  name: WebApp.UpdateStages.WithCredentials
-  nameWithType: WebApp.UpdateStages.WithCredentials
-  fullName: com.microsoft.azure.management.appservice.WebApp.UpdateStages.WithCredentials
-  type: Interface
-  summary: <p>A web app update allowing docker hub credentials to be set. </p>
-  syntax:
-    content: public interface WithCredentials
 - uid: com.microsoft.azure.management.appservice._web_app._definition_stages._with_credentials
   parent: com.microsoft.azure.management.appservice
   href: com.microsoft.azure.management.appservice._web_app._definition_stages._with_credentials.yml
@@ -3633,22 +3623,32 @@ references:
   summary: <p>A web app definition allowing docker registry credentials to be set. </p>
   syntax:
     content: public interface WithCredentials
-- uid: com.microsoft.azure.management.appservice._function_app._update_stages._with_daily_usage_quota
+- uid: com.microsoft.azure.management.appservice._web_app._update_stages._with_credentials
   parent: com.microsoft.azure.management.appservice
-  href: com.microsoft.azure.management.appservice._function_app._update_stages._with_daily_usage_quota.yml
-  name: FunctionApp.UpdateStages.WithDailyUsageQuota
-  nameWithType: FunctionApp.UpdateStages.WithDailyUsageQuota
-  fullName: com.microsoft.azure.management.appservice.FunctionApp.UpdateStages.WithDailyUsageQuota
+  href: com.microsoft.azure.management.appservice._web_app._update_stages._with_credentials.yml
+  name: WebApp.UpdateStages.WithCredentials
+  nameWithType: WebApp.UpdateStages.WithCredentials
+  fullName: com.microsoft.azure.management.appservice.WebApp.UpdateStages.WithCredentials
   type: Interface
-  summary: <p>A function app definition allowing daily usage quota to be specified. </p>
+  summary: <p>A web app update allowing docker hub credentials to be set. </p>
   syntax:
-    content: public interface WithDailyUsageQuota
+    content: public interface WithCredentials
 - uid: com.microsoft.azure.management.appservice._function_app._definition_s9f53284f8cb6a374b98559ea6c55d567
   parent: com.microsoft.azure.management.appservice
   href: com.microsoft.azure.management.appservice._function_app._definition_s9f53284f8cb6a374b98559ea6c55d567.yml
   name: FunctionApp.DefinitionStages.WithDailyUsageQuota
   nameWithType: FunctionApp.DefinitionStages.WithDailyUsageQuota
   fullName: com.microsoft.azure.management.appservice.FunctionApp.DefinitionStages.WithDailyUsageQuota
+  type: Interface
+  summary: <p>A function app definition allowing daily usage quota to be specified. </p>
+  syntax:
+    content: public interface WithDailyUsageQuota
+- uid: com.microsoft.azure.management.appservice._function_app._update_stages._with_daily_usage_quota
+  parent: com.microsoft.azure.management.appservice
+  href: com.microsoft.azure.management.appservice._function_app._update_stages._with_daily_usage_quota.yml
+  name: FunctionApp.UpdateStages.WithDailyUsageQuota
+  nameWithType: FunctionApp.UpdateStages.WithDailyUsageQuota
+  fullName: com.microsoft.azure.management.appservice.FunctionApp.UpdateStages.WithDailyUsageQuota
   type: Interface
   summary: <p>A function app definition allowing daily usage quota to be specified. </p>
   syntax:
@@ -3876,19 +3876,6 @@ references:
     typeParameters:
     - type: 18a275b1
       description: <p>the stage of the parent definition to return to after attaching </p>
-- uid: com.microsoft.azure.management.appservice._web_app_source_control._upf1ab3ecd6578be3aac719046dadab008
-  parent: com.microsoft.azure.management.appservice
-  href: com.microsoft.azure.management.appservice._web_app_source_control._upf1ab3ecd6578be3aac719046dadab008.yml
-  name: WebAppSourceControl.UpdateDefinitionStages.WithGitHubAccessToken<ParentT>
-  nameWithType: WebAppSourceControl.UpdateDefinitionStages.WithGitHubAccessToken<ParentT>
-  fullName: com.microsoft.azure.management.appservice.WebAppSourceControl.UpdateDefinitionStages.WithGitHubAccessToken<ParentT>
-  type: Interface
-  summary: <p>A web app source control definition allowing GitHub access token to be specified. </p>
-  syntax:
-    content: public interface WithGitHubAccessToken<ParentT>
-    typeParameters:
-    - type: 18a275b1
-      description: <p>the stage of the parent definition to return to after attaching this definition </p>
 - uid: com.microsoft.azure.management.appservice._web_app_source_control._dece7e4b15281169e6a98be3b87321f078
   parent: com.microsoft.azure.management.appservice
   href: com.microsoft.azure.management.appservice._web_app_source_control._dece7e4b15281169e6a98be3b87321f078.yml
@@ -3902,16 +3889,16 @@ references:
     typeParameters:
     - type: 18a275b1
       description: <p>the stage of the parent definition to return to after attaching this definition </p>
-- uid: com.microsoft.azure.management.appservice._web_app_source_control._upf7d082146bfe98ef70ae0022fbda6a68
+- uid: com.microsoft.azure.management.appservice._web_app_source_control._upf1ab3ecd6578be3aac719046dadab008
   parent: com.microsoft.azure.management.appservice
-  href: com.microsoft.azure.management.appservice._web_app_source_control._upf7d082146bfe98ef70ae0022fbda6a68.yml
-  name: WebAppSourceControl.UpdateDefinitionStages.WithGitHubBranch<ParentT>
-  nameWithType: WebAppSourceControl.UpdateDefinitionStages.WithGitHubBranch<ParentT>
-  fullName: com.microsoft.azure.management.appservice.WebAppSourceControl.UpdateDefinitionStages.WithGitHubBranch<ParentT>
+  href: com.microsoft.azure.management.appservice._web_app_source_control._upf1ab3ecd6578be3aac719046dadab008.yml
+  name: WebAppSourceControl.UpdateDefinitionStages.WithGitHubAccessToken<ParentT>
+  nameWithType: WebAppSourceControl.UpdateDefinitionStages.WithGitHubAccessToken<ParentT>
+  fullName: com.microsoft.azure.management.appservice.WebAppSourceControl.UpdateDefinitionStages.WithGitHubAccessToken<ParentT>
   type: Interface
-  summary: <p>A web app source control definition allowing branch to be specified. </p>
+  summary: <p>A web app source control definition allowing GitHub access token to be specified. </p>
   syntax:
-    content: public interface WithGitHubBranch<ParentT>
+    content: public interface WithGitHubAccessToken<ParentT>
     typeParameters:
     - type: 18a275b1
       description: <p>the stage of the parent definition to return to after attaching this definition </p>
@@ -3921,6 +3908,19 @@ references:
   name: WebAppSourceControl.DefinitionStages.WithGitHubBranch<ParentT>
   nameWithType: WebAppSourceControl.DefinitionStages.WithGitHubBranch<ParentT>
   fullName: com.microsoft.azure.management.appservice.WebAppSourceControl.DefinitionStages.WithGitHubBranch<ParentT>
+  type: Interface
+  summary: <p>A web app source control definition allowing branch to be specified. </p>
+  syntax:
+    content: public interface WithGitHubBranch<ParentT>
+    typeParameters:
+    - type: 18a275b1
+      description: <p>the stage of the parent definition to return to after attaching this definition </p>
+- uid: com.microsoft.azure.management.appservice._web_app_source_control._upf7d082146bfe98ef70ae0022fbda6a68
+  parent: com.microsoft.azure.management.appservice
+  href: com.microsoft.azure.management.appservice._web_app_source_control._upf7d082146bfe98ef70ae0022fbda6a68.yml
+  name: WebAppSourceControl.UpdateDefinitionStages.WithGitHubBranch<ParentT>
+  nameWithType: WebAppSourceControl.UpdateDefinitionStages.WithGitHubBranch<ParentT>
+  fullName: com.microsoft.azure.management.appservice.WebAppSourceControl.UpdateDefinitionStages.WithGitHubBranch<ParentT>
   type: Interface
   summary: <p>A web app source control definition allowing branch to be specified. </p>
   syntax:
@@ -3948,6 +3948,19 @@ references:
   summary: <p>An app service plan definition allowing resource group to be set. </p>
   syntax:
     content: public interface WithGroup extends GroupableResource<TManager, InnerT>.DefinitionStages.WithGroup<WithPricingTier>
+- uid: com.microsoft.azure.management.appservice._host_name_ssl_binding._def364034ea76e8adaa15cd5943c7a98865
+  parent: com.microsoft.azure.management.appservice
+  href: com.microsoft.azure.management.appservice._host_name_ssl_binding._def364034ea76e8adaa15cd5943c7a98865.yml
+  name: HostNameSslBinding.DefinitionStages.WithHostname<ParentT>
+  nameWithType: HostNameSslBinding.DefinitionStages.WithHostname<ParentT>
+  fullName: com.microsoft.azure.management.appservice.HostNameSslBinding.DefinitionStages.WithHostname<ParentT>
+  type: Interface
+  summary: <p>The stage of a hostname SSL binding definition allowing hostname to be specified. </p>
+  syntax:
+    content: public interface WithHostname<ParentT>
+    typeParameters:
+    - type: 18a275b1
+      description: <p>the stage of the parent definition to return to after attaching this definition </p>
 - uid: com.microsoft.azure.management.appservice._app_service_certificate_orderd40bea381fe771cab5799816564a916b
   parent: com.microsoft.azure.management.appservice
   href: com.microsoft.azure.management.appservice._app_service_certificate_orderd40bea381fe771cab5799816564a916b.yml
@@ -3964,19 +3977,6 @@ references:
   name: HostNameSslBinding.UpdateDefinitionStages.WithHostname<ParentT>
   nameWithType: HostNameSslBinding.UpdateDefinitionStages.WithHostname<ParentT>
   fullName: com.microsoft.azure.management.appservice.HostNameSslBinding.UpdateDefinitionStages.WithHostname<ParentT>
-  type: Interface
-  summary: <p>The stage of a hostname SSL binding definition allowing hostname to be specified. </p>
-  syntax:
-    content: public interface WithHostname<ParentT>
-    typeParameters:
-    - type: 18a275b1
-      description: <p>the stage of the parent definition to return to after attaching this definition </p>
-- uid: com.microsoft.azure.management.appservice._host_name_ssl_binding._def364034ea76e8adaa15cd5943c7a98865
-  parent: com.microsoft.azure.management.appservice
-  href: com.microsoft.azure.management.appservice._host_name_ssl_binding._def364034ea76e8adaa15cd5943c7a98865.yml
-  name: HostNameSslBinding.DefinitionStages.WithHostname<ParentT>
-  nameWithType: HostNameSslBinding.DefinitionStages.WithHostname<ParentT>
-  fullName: com.microsoft.azure.management.appservice.HostNameSslBinding.DefinitionStages.WithHostname<ParentT>
   type: Interface
   summary: <p>The stage of a hostname SSL binding definition allowing hostname to be specified. </p>
   syntax:
@@ -4075,29 +4075,6 @@ references:
     typeParameters:
     - type: 18a275b1
       description: <p>the stage of the parent definition to return to after attaching </p>
-- uid: com.microsoft.azure.management.appservice._app_service_certificate_order8d76259cbd08f1b3fea76656d21c6a66
-  parent: com.microsoft.azure.management.appservice
-  href: com.microsoft.azure.management.appservice._app_service_certificate_order8d76259cbd08f1b3fea76656d21c6a66.yml
-  name: AppServiceCertificateOrder.DefinitionStages.WithKeyVault
-  nameWithType: AppServiceCertificateOrder.DefinitionStages.WithKeyVault
-  fullName: com.microsoft.azure.management.appservice.AppServiceCertificateOrder.DefinitionStages.WithKeyVault
-  type: Interface
-  summary: <p>An app service certificate order definition allowing more domain verification methods to be set. </p>
-  syntax:
-    content: public interface WithKeyVault
-- uid: com.microsoft.azure.management.appservice._host_name_ssl_binding._def997cfa71fd2195fa7fc4a744e98a08d9
-  parent: com.microsoft.azure.management.appservice
-  href: com.microsoft.azure.management.appservice._host_name_ssl_binding._def997cfa71fd2195fa7fc4a744e98a08d9.yml
-  name: HostNameSslBinding.DefinitionStages.WithKeyVault<ParentT>
-  nameWithType: HostNameSslBinding.DefinitionStages.WithKeyVault<ParentT>
-  fullName: com.microsoft.azure.management.appservice.HostNameSslBinding.DefinitionStages.WithKeyVault<ParentT>
-  type: Interface
-  summary: <p>The stage of a hostname SSL binding definition allowing key vault for certificate store to be specified. </p>
-  syntax:
-    content: public interface WithKeyVault<ParentT>
-    typeParameters:
-    - type: 18a275b1
-      description: <p>the stage of the parent definition to return to after attaching this definition </p>
 - uid: com.microsoft.azure.management.appservice._host_name_ssl_binding._upd6ef6823eee77dba9af783b01fc8032d6
   parent: com.microsoft.azure.management.appservice
   href: com.microsoft.azure.management.appservice._host_name_ssl_binding._upd6ef6823eee77dba9af783b01fc8032d6.yml
@@ -4111,6 +4088,29 @@ references:
     typeParameters:
     - type: 18a275b1
       description: <p>the stage of the parent definition to return to after attaching this definition </p>
+- uid: com.microsoft.azure.management.appservice._host_name_ssl_binding._def997cfa71fd2195fa7fc4a744e98a08d9
+  parent: com.microsoft.azure.management.appservice
+  href: com.microsoft.azure.management.appservice._host_name_ssl_binding._def997cfa71fd2195fa7fc4a744e98a08d9.yml
+  name: HostNameSslBinding.DefinitionStages.WithKeyVault<ParentT>
+  nameWithType: HostNameSslBinding.DefinitionStages.WithKeyVault<ParentT>
+  fullName: com.microsoft.azure.management.appservice.HostNameSslBinding.DefinitionStages.WithKeyVault<ParentT>
+  type: Interface
+  summary: <p>The stage of a hostname SSL binding definition allowing key vault for certificate store to be specified. </p>
+  syntax:
+    content: public interface WithKeyVault<ParentT>
+    typeParameters:
+    - type: 18a275b1
+      description: <p>the stage of the parent definition to return to after attaching this definition </p>
+- uid: com.microsoft.azure.management.appservice._app_service_certificate_order8d76259cbd08f1b3fea76656d21c6a66
+  parent: com.microsoft.azure.management.appservice
+  href: com.microsoft.azure.management.appservice._app_service_certificate_order8d76259cbd08f1b3fea76656d21c6a66.yml
+  name: AppServiceCertificateOrder.DefinitionStages.WithKeyVault
+  nameWithType: AppServiceCertificateOrder.DefinitionStages.WithKeyVault
+  fullName: com.microsoft.azure.management.appservice.AppServiceCertificateOrder.DefinitionStages.WithKeyVault
+  type: Interface
+  summary: <p>An app service certificate order definition allowing more domain verification methods to be set. </p>
+  syntax:
+    content: public interface WithKeyVault
 - uid: com.microsoft.azure.management.appservice._domain_contact._definition_stages._with_last_name
   parent: com.microsoft.azure.management.appservice
   href: com.microsoft.azure.management.appservice._domain_contact._definition_stages._with_last_name.yml
@@ -4190,16 +4190,6 @@ references:
   summary: <p>The first stage of a web deployment definition. </p>
   syntax:
     content: public interface WithPackageUri
-- uid: com.microsoft.azure.management.appservice._app_service_plan._update_stages._with_per_site_scaling
-  parent: com.microsoft.azure.management.appservice
-  href: com.microsoft.azure.management.appservice._app_service_plan._update_stages._with_per_site_scaling.yml
-  name: AppServicePlan.UpdateStages.WithPerSiteScaling
-  nameWithType: AppServicePlan.UpdateStages.WithPerSiteScaling
-  fullName: com.microsoft.azure.management.appservice.AppServicePlan.UpdateStages.WithPerSiteScaling
-  type: Interface
-  summary: <p>An app service plan update allowing per site scaling configuration to be set. </p>
-  syntax:
-    content: public interface WithPerSiteScaling
 - uid: com.microsoft.azure.management.appservice._app_service_plan._definitia2514b8df4a75dbee2db37b4253f5b71
   parent: com.microsoft.azure.management.appservice
   href: com.microsoft.azure.management.appservice._app_service_plan._definitia2514b8df4a75dbee2db37b4253f5b71.yml
@@ -4208,6 +4198,16 @@ references:
   fullName: com.microsoft.azure.management.appservice.AppServicePlan.DefinitionStages.WithPerSiteScaling
   type: Interface
   summary: <p>An app service plan definition allowing per site scaling configuration to be set. </p>
+  syntax:
+    content: public interface WithPerSiteScaling
+- uid: com.microsoft.azure.management.appservice._app_service_plan._update_stages._with_per_site_scaling
+  parent: com.microsoft.azure.management.appservice
+  href: com.microsoft.azure.management.appservice._app_service_plan._update_stages._with_per_site_scaling.yml
+  name: AppServicePlan.UpdateStages.WithPerSiteScaling
+  nameWithType: AppServicePlan.UpdateStages.WithPerSiteScaling
+  fullName: com.microsoft.azure.management.appservice.AppServicePlan.UpdateStages.WithPerSiteScaling
+  type: Interface
+  summary: <p>An app service plan update allowing per site scaling configuration to be set. </p>
   syntax:
     content: public interface WithPerSiteScaling
 - uid: com.microsoft.azure.management.appservice._app_service_certificate._da5bac0f1fffb5db08d582761712c2c34
@@ -4259,22 +4259,22 @@ references:
     typeParameters:
     - type: 18a275b1
       description: <p>the stage of the parent definition to return to after attaching </p>
-- uid: com.microsoft.azure.management.appservice._app_service_plan._update_stages._with_pricing_tier
-  parent: com.microsoft.azure.management.appservice
-  href: com.microsoft.azure.management.appservice._app_service_plan._update_stages._with_pricing_tier.yml
-  name: AppServicePlan.UpdateStages.WithPricingTier
-  nameWithType: AppServicePlan.UpdateStages.WithPricingTier
-  fullName: com.microsoft.azure.management.appservice.AppServicePlan.UpdateStages.WithPricingTier
-  type: Interface
-  summary: <p>An app service plan definition allowing pricing tier to be set. </p>
-  syntax:
-    content: public interface WithPricingTier
 - uid: com.microsoft.azure.management.appservice._app_service_plan._definition_stages._with_pricing_tier
   parent: com.microsoft.azure.management.appservice
   href: com.microsoft.azure.management.appservice._app_service_plan._definition_stages._with_pricing_tier.yml
   name: AppServicePlan.DefinitionStages.WithPricingTier
   nameWithType: AppServicePlan.DefinitionStages.WithPricingTier
   fullName: com.microsoft.azure.management.appservice.AppServicePlan.DefinitionStages.WithPricingTier
+  type: Interface
+  summary: <p>An app service plan definition allowing pricing tier to be set. </p>
+  syntax:
+    content: public interface WithPricingTier
+- uid: com.microsoft.azure.management.appservice._app_service_plan._update_stages._with_pricing_tier
+  parent: com.microsoft.azure.management.appservice
+  href: com.microsoft.azure.management.appservice._app_service_plan._update_stages._with_pricing_tier.yml
+  name: AppServicePlan.UpdateStages.WithPricingTier
+  nameWithType: AppServicePlan.UpdateStages.WithPricingTier
+  fullName: com.microsoft.azure.management.appservice.AppServicePlan.UpdateStages.WithPricingTier
   type: Interface
   summary: <p>An app service plan definition allowing pricing tier to be set. </p>
   syntax:
@@ -4289,19 +4289,6 @@ references:
   summary: <p>A domain definition allowing registrant contact to be set. </p>
   syntax:
     content: public interface WithRegistrantContact
-- uid: com.microsoft.azure.management.appservice._web_app_source_control._de795e3d046eed0a5c6643eed60ed10dee
-  parent: com.microsoft.azure.management.appservice
-  href: com.microsoft.azure.management.appservice._web_app_source_control._de795e3d046eed0a5c6643eed60ed10dee.yml
-  name: WebAppSourceControl.DefinitionStages.WithRepositoryType<ParentT>
-  nameWithType: WebAppSourceControl.DefinitionStages.WithRepositoryType<ParentT>
-  fullName: com.microsoft.azure.management.appservice.WebAppSourceControl.DefinitionStages.WithRepositoryType<ParentT>
-  type: Interface
-  summary: <p>A web app source control definition allowing repository type to be specified. </p>
-  syntax:
-    content: public interface WithRepositoryType<ParentT>
-    typeParameters:
-    - type: 18a275b1
-      description: <p>the stage of the parent definition to return to after attaching this definition </p>
 - uid: com.microsoft.azure.management.appservice._web_app_source_control._upa3ec7739109bf5538f82276eef7ae9f1
   parent: com.microsoft.azure.management.appservice
   href: com.microsoft.azure.management.appservice._web_app_source_control._upa3ec7739109bf5538f82276eef7ae9f1.yml
@@ -4315,16 +4302,19 @@ references:
     typeParameters:
     - type: 18a275b1
       description: <p>the stage of the parent definition to return to after attaching this definition </p>
-- uid: com.microsoft.azure.management.appservice._function_app._update_stages._with_runtime_version
+- uid: com.microsoft.azure.management.appservice._web_app_source_control._de795e3d046eed0a5c6643eed60ed10dee
   parent: com.microsoft.azure.management.appservice
-  href: com.microsoft.azure.management.appservice._function_app._update_stages._with_runtime_version.yml
-  name: FunctionApp.UpdateStages.WithRuntimeVersion
-  nameWithType: FunctionApp.UpdateStages.WithRuntimeVersion
-  fullName: com.microsoft.azure.management.appservice.FunctionApp.UpdateStages.WithRuntimeVersion
+  href: com.microsoft.azure.management.appservice._web_app_source_control._de795e3d046eed0a5c6643eed60ed10dee.yml
+  name: WebAppSourceControl.DefinitionStages.WithRepositoryType<ParentT>
+  nameWithType: WebAppSourceControl.DefinitionStages.WithRepositoryType<ParentT>
+  fullName: com.microsoft.azure.management.appservice.WebAppSourceControl.DefinitionStages.WithRepositoryType<ParentT>
   type: Interface
-  summary: <p>A function app update allowing runtime version to be specified. </p>
+  summary: <p>A web app source control definition allowing repository type to be specified. </p>
   syntax:
-    content: public interface WithRuntimeVersion
+    content: public interface WithRepositoryType<ParentT>
+    typeParameters:
+    - type: 18a275b1
+      description: <p>the stage of the parent definition to return to after attaching this definition </p>
 - uid: com.microsoft.azure.management.appservice._function_app._definition_stages._with_runtime_version
   parent: com.microsoft.azure.management.appservice
   href: com.microsoft.azure.management.appservice._function_app._definition_stages._with_runtime_version.yml
@@ -4335,19 +4325,16 @@ references:
   summary: <p>A function app definition allowing runtime version to be specified. </p>
   syntax:
     content: public interface WithRuntimeVersion
-- uid: com.microsoft.azure.management.appservice._web_app_base._update_stage28ad0a6f7db97212e24e4cdc967a62b4
+- uid: com.microsoft.azure.management.appservice._function_app._update_stages._with_runtime_version
   parent: com.microsoft.azure.management.appservice
-  href: com.microsoft.azure.management.appservice._web_app_base._update_stage28ad0a6f7db97212e24e4cdc967a62b4.yml
-  name: WebAppBase.UpdateStages.WithScmSiteAlsoStopped<FluentT>
-  nameWithType: WebAppBase.UpdateStages.WithScmSiteAlsoStopped<FluentT>
-  fullName: com.microsoft.azure.management.appservice.WebAppBase.UpdateStages.WithScmSiteAlsoStopped<FluentT>
+  href: com.microsoft.azure.management.appservice._function_app._update_stages._with_runtime_version.yml
+  name: FunctionApp.UpdateStages.WithRuntimeVersion
+  nameWithType: FunctionApp.UpdateStages.WithRuntimeVersion
+  fullName: com.microsoft.azure.management.appservice.FunctionApp.UpdateStages.WithRuntimeVersion
   type: Interface
-  summary: <p>The stage of the web app update allowing setting if SCM site is also stopped when the web app is stopped. </p>
+  summary: <p>A function app update allowing runtime version to be specified. </p>
   syntax:
-    content: public interface WithScmSiteAlsoStopped<FluentT>
-    typeParameters:
-    - type: dee0e3c3
-      description: <p>the type of the resource </p>
+    content: public interface WithRuntimeVersion
 - uid: com.microsoft.azure.management.appservice._web_app_base._definition_sf7fdf336f5e362902d03be6ca1f6e3aa
   parent: com.microsoft.azure.management.appservice
   href: com.microsoft.azure.management.appservice._web_app_base._definition_sf7fdf336f5e362902d03be6ca1f6e3aa.yml
@@ -4356,6 +4343,19 @@ references:
   fullName: com.microsoft.azure.management.appservice.WebAppBase.DefinitionStages.WithScmSiteAlsoStopped<FluentT>
   type: Interface
   summary: <p>A web app definition stage allowing setting if SCM site is also stopped when the web app is stopped. </p>
+  syntax:
+    content: public interface WithScmSiteAlsoStopped<FluentT>
+    typeParameters:
+    - type: dee0e3c3
+      description: <p>the type of the resource </p>
+- uid: com.microsoft.azure.management.appservice._web_app_base._update_stage28ad0a6f7db97212e24e4cdc967a62b4
+  parent: com.microsoft.azure.management.appservice
+  href: com.microsoft.azure.management.appservice._web_app_base._update_stage28ad0a6f7db97212e24e4cdc967a62b4.yml
+  name: WebAppBase.UpdateStages.WithScmSiteAlsoStopped<FluentT>
+  nameWithType: WebAppBase.UpdateStages.WithScmSiteAlsoStopped<FluentT>
+  fullName: com.microsoft.azure.management.appservice.WebAppBase.UpdateStages.WithScmSiteAlsoStopped<FluentT>
+  type: Interface
+  summary: <p>The stage of the web app update allowing setting if SCM site is also stopped when the web app is stopped. </p>
   syntax:
     content: public interface WithScmSiteAlsoStopped<FluentT>
     typeParameters:
@@ -4508,16 +4508,6 @@ references:
     typeParameters:
     - type: 18a275b1
       description: <p>the stage of the parent definition to return to after attaching </p>
-- uid: com.microsoft.azure.management.appservice._function_app._definition_stages._with_storage_account
-  parent: com.microsoft.azure.management.appservice
-  href: com.microsoft.azure.management.appservice._function_app._definition_stages._with_storage_account.yml
-  name: FunctionApp.DefinitionStages.WithStorageAccount
-  nameWithType: FunctionApp.DefinitionStages.WithStorageAccount
-  fullName: com.microsoft.azure.management.appservice.FunctionApp.DefinitionStages.WithStorageAccount
-  type: Interface
-  summary: <p>A function app definition allowing storage account to be specified. A storage account is required for storing function execution runtime, triggers, and logs. </p>
-  syntax:
-    content: public interface WithStorageAccount
 - uid: com.microsoft.azure.management.appservice._function_app._update_stages._with_storage_account
   parent: com.microsoft.azure.management.appservice
   href: com.microsoft.azure.management.appservice._function_app._update_stages._with_storage_account.yml
@@ -4528,12 +4518,22 @@ references:
   summary: <p>A function app definition allowing storage account to be specified. A storage account is required for storing function execution runtime, triggers, and logs. </p>
   syntax:
     content: public interface WithStorageAccount
-- uid: com.microsoft.azure.management.appservice._host_name_binding._update_16517018de3a48167358992f616fe4f2
+- uid: com.microsoft.azure.management.appservice._function_app._definition_stages._with_storage_account
   parent: com.microsoft.azure.management.appservice
-  href: com.microsoft.azure.management.appservice._host_name_binding._update_16517018de3a48167358992f616fe4f2.yml
-  name: HostNameBinding.UpdateDefinitionStages.WithSubDomain<ParentT>
-  nameWithType: HostNameBinding.UpdateDefinitionStages.WithSubDomain<ParentT>
-  fullName: com.microsoft.azure.management.appservice.HostNameBinding.UpdateDefinitionStages.WithSubDomain<ParentT>
+  href: com.microsoft.azure.management.appservice._function_app._definition_stages._with_storage_account.yml
+  name: FunctionApp.DefinitionStages.WithStorageAccount
+  nameWithType: FunctionApp.DefinitionStages.WithStorageAccount
+  fullName: com.microsoft.azure.management.appservice.FunctionApp.DefinitionStages.WithStorageAccount
+  type: Interface
+  summary: <p>A function app definition allowing storage account to be specified. A storage account is required for storing function execution runtime, triggers, and logs. </p>
+  syntax:
+    content: public interface WithStorageAccount
+- uid: com.microsoft.azure.management.appservice._host_name_binding._definition_stages._with_sub_domain
+  parent: com.microsoft.azure.management.appservice
+  href: com.microsoft.azure.management.appservice._host_name_binding._definition_stages._with_sub_domain.yml
+  name: HostNameBinding.DefinitionStages.WithSubDomain<ParentT>
+  nameWithType: HostNameBinding.DefinitionStages.WithSubDomain<ParentT>
+  fullName: com.microsoft.azure.management.appservice.HostNameBinding.DefinitionStages.WithSubDomain<ParentT>
   type: Interface
   summary: <p>The stage of a hostname binding definition allowing sub-domain to be specified. </p>
   syntax:
@@ -4541,12 +4541,12 @@ references:
     typeParameters:
     - type: 18a275b1
       description: <p>the stage of the parent definition to return to after attaching this definition </p>
-- uid: com.microsoft.azure.management.appservice._host_name_binding._definition_stages._with_sub_domain
+- uid: com.microsoft.azure.management.appservice._host_name_binding._update_16517018de3a48167358992f616fe4f2
   parent: com.microsoft.azure.management.appservice
-  href: com.microsoft.azure.management.appservice._host_name_binding._definition_stages._with_sub_domain.yml
-  name: HostNameBinding.DefinitionStages.WithSubDomain<ParentT>
-  nameWithType: HostNameBinding.DefinitionStages.WithSubDomain<ParentT>
-  fullName: com.microsoft.azure.management.appservice.HostNameBinding.DefinitionStages.WithSubDomain<ParentT>
+  href: com.microsoft.azure.management.appservice._host_name_binding._update_16517018de3a48167358992f616fe4f2.yml
+  name: HostNameBinding.UpdateDefinitionStages.WithSubDomain<ParentT>
+  nameWithType: HostNameBinding.UpdateDefinitionStages.WithSubDomain<ParentT>
+  fullName: com.microsoft.azure.management.appservice.HostNameBinding.UpdateDefinitionStages.WithSubDomain<ParentT>
   type: Interface
   summary: <p>The stage of a hostname binding definition allowing sub-domain to be specified. </p>
   syntax:
@@ -4587,12 +4587,12 @@ references:
     typeParameters:
     - type: 18a275b1
       description: <p>the return type of the final <xref uid="com.microsoft.azure.management.resources.fluentcore.model._settable.parent()" data-throw-if-not-resolved="false">Update#parent()</xref></p>
-- uid: com.microsoft.azure.management.appservice._web_app_authentication._de3ee647f0f00c9409382c246cbb4256dc
+- uid: com.microsoft.azure.management.appservice._web_app_authentication._up59eb6f58a88befbf3640ff7b11c66c1a
   parent: com.microsoft.azure.management.appservice
-  href: com.microsoft.azure.management.appservice._web_app_authentication._de3ee647f0f00c9409382c246cbb4256dc.yml
-  name: WebAppAuthentication.DefinitionStages.WithTokenStore<ParentT>
-  nameWithType: WebAppAuthentication.DefinitionStages.WithTokenStore<ParentT>
-  fullName: com.microsoft.azure.management.appservice.WebAppAuthentication.DefinitionStages.WithTokenStore<ParentT>
+  href: com.microsoft.azure.management.appservice._web_app_authentication._up59eb6f58a88befbf3640ff7b11c66c1a.yml
+  name: WebAppAuthentication.UpdateDefinitionStages.WithTokenStore<ParentT>
+  nameWithType: WebAppAuthentication.UpdateDefinitionStages.WithTokenStore<ParentT>
+  fullName: com.microsoft.azure.management.appservice.WebAppAuthentication.UpdateDefinitionStages.WithTokenStore<ParentT>
   type: Interface
   summary: <p>A web app authentication definition allowing token store to be specified. </p>
   syntax:
@@ -4600,12 +4600,12 @@ references:
     typeParameters:
     - type: 18a275b1
       description: <p>the stage of the parent definition to return to after attaching this definition </p>
-- uid: com.microsoft.azure.management.appservice._web_app_authentication._up59eb6f58a88befbf3640ff7b11c66c1a
+- uid: com.microsoft.azure.management.appservice._web_app_authentication._de3ee647f0f00c9409382c246cbb4256dc
   parent: com.microsoft.azure.management.appservice
-  href: com.microsoft.azure.management.appservice._web_app_authentication._up59eb6f58a88befbf3640ff7b11c66c1a.yml
-  name: WebAppAuthentication.UpdateDefinitionStages.WithTokenStore<ParentT>
-  nameWithType: WebAppAuthentication.UpdateDefinitionStages.WithTokenStore<ParentT>
-  fullName: com.microsoft.azure.management.appservice.WebAppAuthentication.UpdateDefinitionStages.WithTokenStore<ParentT>
+  href: com.microsoft.azure.management.appservice._web_app_authentication._de3ee647f0f00c9409382c246cbb4256dc.yml
+  name: WebAppAuthentication.DefinitionStages.WithTokenStore<ParentT>
+  nameWithType: WebAppAuthentication.DefinitionStages.WithTokenStore<ParentT>
+  fullName: com.microsoft.azure.management.appservice.WebAppAuthentication.DefinitionStages.WithTokenStore<ParentT>
   type: Interface
   summary: <p>A web app authentication definition allowing token store to be specified. </p>
   syntax:

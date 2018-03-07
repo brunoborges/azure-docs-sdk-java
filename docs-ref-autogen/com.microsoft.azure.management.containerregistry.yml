@@ -755,22 +755,6 @@ references:
     typeParameters:
     - type: 18a275b1
       description: <p>the stage of the parent definition to return to after attaching this definition </p>
-- uid: com.microsoft.azure.management.containerregistry._webhook._definition_stages._with_default_status
-  parent: com.microsoft.azure.management.containerregistry
-  href: com.microsoft.azure.management.containerregistry._webhook._definition_stages._with_default_status.yml
-  name: Webhook.DefinitionStages.WithDefaultStatus<ParentT>
-  nameWithType: Webhook.DefinitionStages.WithDefaultStatus<ParentT>
-  fullName: com.microsoft.azure.management.containerregistry.Webhook.DefinitionStages.WithDefaultStatus<ParentT>
-  type: Interface
-  summary: >-
-    <p>The stage of the webhook definition allowing to specify the default status of the webhook after being created.</p>
-
-    <p></p>
-  syntax:
-    content: public interface WithDefaultStatus<ParentT>
-    typeParameters:
-    - type: 18a275b1
-      description: <p>the stage of the parent definition to return to after attaching this definition </p>
 - uid: com.microsoft.azure.management.containerregistry._webhook._update_stages._with_default_status
   parent: com.microsoft.azure.management.containerregistry
   href: com.microsoft.azure.management.containerregistry._webhook._update_stages._with_default_status.yml
@@ -803,6 +787,22 @@ references:
   name: Webhook.UpdateResourceStages.WithDefaultStatus<ParentT>
   nameWithType: Webhook.UpdateResourceStages.WithDefaultStatus<ParentT>
   fullName: com.microsoft.azure.management.containerregistry.Webhook.UpdateResourceStages.WithDefaultStatus<ParentT>
+  type: Interface
+  summary: >-
+    <p>The stage of the webhook definition allowing to specify the default status of the webhook after being created.</p>
+
+    <p></p>
+  syntax:
+    content: public interface WithDefaultStatus<ParentT>
+    typeParameters:
+    - type: 18a275b1
+      description: <p>the stage of the parent definition to return to after attaching this definition </p>
+- uid: com.microsoft.azure.management.containerregistry._webhook._definition_stages._with_default_status
+  parent: com.microsoft.azure.management.containerregistry
+  href: com.microsoft.azure.management.containerregistry._webhook._definition_stages._with_default_status.yml
+  name: Webhook.DefinitionStages.WithDefaultStatus<ParentT>
+  nameWithType: Webhook.DefinitionStages.WithDefaultStatus<ParentT>
+  fullName: com.microsoft.azure.management.containerregistry.Webhook.DefinitionStages.WithDefaultStatus<ParentT>
   type: Interface
   summary: >-
     <p>The stage of the webhook definition allowing to specify the default status of the webhook after being created.</p>
@@ -849,12 +849,12 @@ references:
   summary: <p>The stage of the webhook definition allowing to specify the scope of repositories where the event can be triggered. </p>
   syntax:
     content: public interface WithRepositoriesScope
-- uid: com.microsoft.azure.management.containerregistry._webhook._definition5fe7eab733499f57c88cd00901fb8cfb
+- uid: com.microsoft.azure.management.containerregistry._webhook._update_resfcf3f510375fee7e91d2c5b2012419e4
   parent: com.microsoft.azure.management.containerregistry
-  href: com.microsoft.azure.management.containerregistry._webhook._definition5fe7eab733499f57c88cd00901fb8cfb.yml
-  name: Webhook.DefinitionStages.WithRepositoriesScope<ParentT>
-  nameWithType: Webhook.DefinitionStages.WithRepositoriesScope<ParentT>
-  fullName: com.microsoft.azure.management.containerregistry.Webhook.DefinitionStages.WithRepositoriesScope<ParentT>
+  href: com.microsoft.azure.management.containerregistry._webhook._update_resfcf3f510375fee7e91d2c5b2012419e4.yml
+  name: Webhook.UpdateResourceStages.WithRepositoriesScope<ParentT>
+  nameWithType: Webhook.UpdateResourceStages.WithRepositoriesScope<ParentT>
+  fullName: com.microsoft.azure.management.containerregistry.Webhook.UpdateResourceStages.WithRepositoriesScope<ParentT>
   type: Interface
   summary: >-
     <p>The stage of the webhook definition allowing to specify the scope of repositories where the event can be triggered.</p>
@@ -881,12 +881,12 @@ references:
     typeParameters:
     - type: 18a275b1
       description: <p>the stage of the parent definition to return to after attaching this definition </p>
-- uid: com.microsoft.azure.management.containerregistry._webhook._update_resfcf3f510375fee7e91d2c5b2012419e4
+- uid: com.microsoft.azure.management.containerregistry._webhook._definition5fe7eab733499f57c88cd00901fb8cfb
   parent: com.microsoft.azure.management.containerregistry
-  href: com.microsoft.azure.management.containerregistry._webhook._update_resfcf3f510375fee7e91d2c5b2012419e4.yml
-  name: Webhook.UpdateResourceStages.WithRepositoriesScope<ParentT>
-  nameWithType: Webhook.UpdateResourceStages.WithRepositoriesScope<ParentT>
-  fullName: com.microsoft.azure.management.containerregistry.Webhook.UpdateResourceStages.WithRepositoriesScope<ParentT>
+  href: com.microsoft.azure.management.containerregistry._webhook._definition5fe7eab733499f57c88cd00901fb8cfb.yml
+  name: Webhook.DefinitionStages.WithRepositoriesScope<ParentT>
+  nameWithType: Webhook.DefinitionStages.WithRepositoriesScope<ParentT>
+  fullName: com.microsoft.azure.management.containerregistry.Webhook.DefinitionStages.WithRepositoriesScope<ParentT>
   type: Interface
   summary: >-
     <p>The stage of the webhook definition allowing to specify the scope of repositories where the event can be triggered.</p>
@@ -897,12 +897,28 @@ references:
     typeParameters:
     - type: 18a275b1
       description: <p>the stage of the parent definition to return to after attaching this definition </p>
-- uid: com.microsoft.azure.management.containerregistry._webhook._update_defd1ef7fcab996699e1e5e37cbc02773a7
+- uid: com.microsoft.azure.management.containerregistry._webhook._update_resbca40b24f9620619981028065c30644b
   parent: com.microsoft.azure.management.containerregistry
-  href: com.microsoft.azure.management.containerregistry._webhook._update_defd1ef7fcab996699e1e5e37cbc02773a7.yml
-  name: Webhook.UpdateDefinitionStages.WithServiceUri<ParentT>
-  nameWithType: Webhook.UpdateDefinitionStages.WithServiceUri<ParentT>
-  fullName: com.microsoft.azure.management.containerregistry.Webhook.UpdateDefinitionStages.WithServiceUri<ParentT>
+  href: com.microsoft.azure.management.containerregistry._webhook._update_resbca40b24f9620619981028065c30644b.yml
+  name: Webhook.UpdateResourceStages.WithServiceUri<ParentT>
+  nameWithType: Webhook.UpdateResourceStages.WithServiceUri<ParentT>
+  fullName: com.microsoft.azure.management.containerregistry.Webhook.UpdateResourceStages.WithServiceUri<ParentT>
+  type: Interface
+  summary: >-
+    <p>The stage of the webhook definition allowing to specify the service URI for post notifications.</p>
+
+    <p></p>
+  syntax:
+    content: public interface WithServiceUri<ParentT>
+    typeParameters:
+    - type: 18a275b1
+      description: <p>the stage of the parent definition to return to after attaching this definition </p>
+- uid: com.microsoft.azure.management.containerregistry._webhook._definition_stages._with_service_uri
+  parent: com.microsoft.azure.management.containerregistry
+  href: com.microsoft.azure.management.containerregistry._webhook._definition_stages._with_service_uri.yml
+  name: Webhook.DefinitionStages.WithServiceUri<ParentT>
+  nameWithType: Webhook.DefinitionStages.WithServiceUri<ParentT>
+  fullName: com.microsoft.azure.management.containerregistry.Webhook.DefinitionStages.WithServiceUri<ParentT>
   type: Interface
   summary: >-
     <p>The stage of the webhook definition allowing to specify the service URI for post notifications.</p>
@@ -923,28 +939,12 @@ references:
   summary: <p>The stage of the webhook definition allowing to specify the service URI for post notifications. </p>
   syntax:
     content: public interface WithServiceUri
-- uid: com.microsoft.azure.management.containerregistry._webhook._definition_stages._with_service_uri
+- uid: com.microsoft.azure.management.containerregistry._webhook._update_defd1ef7fcab996699e1e5e37cbc02773a7
   parent: com.microsoft.azure.management.containerregistry
-  href: com.microsoft.azure.management.containerregistry._webhook._definition_stages._with_service_uri.yml
-  name: Webhook.DefinitionStages.WithServiceUri<ParentT>
-  nameWithType: Webhook.DefinitionStages.WithServiceUri<ParentT>
-  fullName: com.microsoft.azure.management.containerregistry.Webhook.DefinitionStages.WithServiceUri<ParentT>
-  type: Interface
-  summary: >-
-    <p>The stage of the webhook definition allowing to specify the service URI for post notifications.</p>
-
-    <p></p>
-  syntax:
-    content: public interface WithServiceUri<ParentT>
-    typeParameters:
-    - type: 18a275b1
-      description: <p>the stage of the parent definition to return to after attaching this definition </p>
-- uid: com.microsoft.azure.management.containerregistry._webhook._update_resbca40b24f9620619981028065c30644b
-  parent: com.microsoft.azure.management.containerregistry
-  href: com.microsoft.azure.management.containerregistry._webhook._update_resbca40b24f9620619981028065c30644b.yml
-  name: Webhook.UpdateResourceStages.WithServiceUri<ParentT>
-  nameWithType: Webhook.UpdateResourceStages.WithServiceUri<ParentT>
-  fullName: com.microsoft.azure.management.containerregistry.Webhook.UpdateResourceStages.WithServiceUri<ParentT>
+  href: com.microsoft.azure.management.containerregistry._webhook._update_defd1ef7fcab996699e1e5e37cbc02773a7.yml
+  name: Webhook.UpdateDefinitionStages.WithServiceUri<ParentT>
+  nameWithType: Webhook.UpdateDefinitionStages.WithServiceUri<ParentT>
+  fullName: com.microsoft.azure.management.containerregistry.Webhook.UpdateDefinitionStages.WithServiceUri<ParentT>
   type: Interface
   summary: >-
     <p>The stage of the webhook definition allowing to specify the service URI for post notifications.</p>
@@ -1001,33 +1001,6 @@ references:
     typeParameters:
     - type: 18a275b1
       description: <p>the stage of the parent definition to return to after attaching this definition </p>
-- uid: com.microsoft.azure.management.containerregistry._webhook._update_resb6dc4798fcd1ab0d2c931b948f154349
-  parent: com.microsoft.azure.management.containerregistry
-  href: com.microsoft.azure.management.containerregistry._webhook._update_resb6dc4798fcd1ab0d2c931b948f154349.yml
-  name: Webhook.UpdateResourceStages.WithTriggerWhen<ParentT>
-  nameWithType: Webhook.UpdateResourceStages.WithTriggerWhen<ParentT>
-  fullName: com.microsoft.azure.management.containerregistry.Webhook.UpdateResourceStages.WithTriggerWhen<ParentT>
-  type: Interface
-  syntax:
-    content: public interface WithTriggerWhen<ParentT>
-    typeParameters:
-    - type: 18a275b1
-- uid: com.microsoft.azure.management.containerregistry._webhook._definition_stages._with_trigger_when
-  parent: com.microsoft.azure.management.containerregistry
-  href: com.microsoft.azure.management.containerregistry._webhook._definition_stages._with_trigger_when.yml
-  name: Webhook.DefinitionStages.WithTriggerWhen<ParentT>
-  nameWithType: Webhook.DefinitionStages.WithTriggerWhen<ParentT>
-  fullName: com.microsoft.azure.management.containerregistry.Webhook.DefinitionStages.WithTriggerWhen<ParentT>
-  type: Interface
-  summary: >-
-    <p>The stage of the webhook definition allowing to specify the actions that will trigger the webhook notifications.</p>
-
-    <p></p>
-  syntax:
-    content: public interface WithTriggerWhen<ParentT>
-    typeParameters:
-    - type: 18a275b1
-      description: <p>the stage of the parent definition to return to after attaching this definition </p>
 - uid: com.microsoft.azure.management.containerregistry._webhook._update_def4e96bb41784f24b728c0666f3a2eb866
   parent: com.microsoft.azure.management.containerregistry
   href: com.microsoft.azure.management.containerregistry._webhook._update_def4e96bb41784f24b728c0666f3a2eb866.yml
@@ -1044,6 +1017,33 @@ references:
     typeParameters:
     - type: 18a275b1
       description: <p>the stage of the parent definition to return to after attaching this definition </p>
+- uid: com.microsoft.azure.management.containerregistry._webhook._definition_stages._with_trigger_when
+  parent: com.microsoft.azure.management.containerregistry
+  href: com.microsoft.azure.management.containerregistry._webhook._definition_stages._with_trigger_when.yml
+  name: Webhook.DefinitionStages.WithTriggerWhen<ParentT>
+  nameWithType: Webhook.DefinitionStages.WithTriggerWhen<ParentT>
+  fullName: com.microsoft.azure.management.containerregistry.Webhook.DefinitionStages.WithTriggerWhen<ParentT>
+  type: Interface
+  summary: >-
+    <p>The stage of the webhook definition allowing to specify the actions that will trigger the webhook notifications.</p>
+
+    <p></p>
+  syntax:
+    content: public interface WithTriggerWhen<ParentT>
+    typeParameters:
+    - type: 18a275b1
+      description: <p>the stage of the parent definition to return to after attaching this definition </p>
+- uid: com.microsoft.azure.management.containerregistry._webhook._update_resb6dc4798fcd1ab0d2c931b948f154349
+  parent: com.microsoft.azure.management.containerregistry
+  href: com.microsoft.azure.management.containerregistry._webhook._update_resb6dc4798fcd1ab0d2c931b948f154349.yml
+  name: Webhook.UpdateResourceStages.WithTriggerWhen<ParentT>
+  nameWithType: Webhook.UpdateResourceStages.WithTriggerWhen<ParentT>
+  fullName: com.microsoft.azure.management.containerregistry.Webhook.UpdateResourceStages.WithTriggerWhen<ParentT>
+  type: Interface
+  syntax:
+    content: public interface WithTriggerWhen<ParentT>
+    typeParameters:
+    - type: 18a275b1
 - uid: com.microsoft.azure.management.containerregistry._webhook._update_stages._with_trigger_when
   parent: com.microsoft.azure.management.containerregistry
   href: com.microsoft.azure.management.containerregistry._webhook._update_stages._with_trigger_when.yml
@@ -1053,16 +1053,6 @@ references:
   type: Interface
   syntax:
     content: public interface WithTriggerWhen
-- uid: com.microsoft.azure.management.containerregistry._registry._definition_stages._with_webhook
-  parent: com.microsoft.azure.management.containerregistry
-  href: com.microsoft.azure.management.containerregistry._registry._definition_stages._with_webhook.yml
-  name: Registry.DefinitionStages.WithWebhook
-  nameWithType: Registry.DefinitionStages.WithWebhook
-  fullName: com.microsoft.azure.management.containerregistry.Registry.DefinitionStages.WithWebhook
-  type: Interface
-  summary: <p>The stage of the container registry definition allowing to add or remove a webhook. </p>
-  syntax:
-    content: public interface WithWebhook
 - uid: com.microsoft.azure.management.containerregistry._registry._update_stages._with_webhook
   parent: com.microsoft.azure.management.containerregistry
   href: com.microsoft.azure.management.containerregistry._registry._update_stages._with_webhook.yml
@@ -1071,5 +1061,15 @@ references:
   fullName: com.microsoft.azure.management.containerregistry.Registry.UpdateStages.WithWebhook
   type: Interface
   summary: <p>The stage of the container registry update allowing to add or remove a webhook. </p>
+  syntax:
+    content: public interface WithWebhook
+- uid: com.microsoft.azure.management.containerregistry._registry._definition_stages._with_webhook
+  parent: com.microsoft.azure.management.containerregistry
+  href: com.microsoft.azure.management.containerregistry._registry._definition_stages._with_webhook.yml
+  name: Registry.DefinitionStages.WithWebhook
+  nameWithType: Registry.DefinitionStages.WithWebhook
+  fullName: com.microsoft.azure.management.containerregistry.Registry.DefinitionStages.WithWebhook
+  type: Interface
+  summary: <p>The stage of the container registry definition allowing to add or remove a webhook. </p>
   syntax:
     content: public interface WithWebhook

@@ -1878,19 +1878,6 @@ references:
     typeParameters:
     - type: c1a5ebc4
       description: <p>next definition stage type </p>
-- uid: com.microsoft.azure.management.batchai._tool_type_settings._chainer_1c1c4969d29ebe2316080335426dc9e77
-  parent: com.microsoft.azure.management.batchai
-  href: com.microsoft.azure.management.batchai._tool_type_settings._chainer_1c1c4969d29ebe2316080335426dc9e77.yml
-  name: ToolTypeSettings.Chainer.DefinitionStages.WithPython<ParentT>
-  nameWithType: ToolTypeSettings.Chainer.DefinitionStages.WithPython<ParentT>
-  fullName: com.microsoft.azure.management.batchai.ToolTypeSettings.Chainer.DefinitionStages.WithPython<ParentT>
-  type: Interface
-  summary: <p>Specifies python script file path to execute the job. </p>
-  syntax:
-    content: public interface WithPython<ParentT>
-    typeParameters:
-    - type: 18a275b1
-      description: <p>the stage of the parent definition to return to after attaching this definition </p>
 - uid: com.microsoft.azure.management.batchai._tool_type_settings._caffe2_1_ad144b091fcdd401142a642285da26c6
   parent: com.microsoft.azure.management.batchai
   href: com.microsoft.azure.management.batchai._tool_type_settings._caffe2_1_ad144b091fcdd401142a642285da26c6.yml
@@ -1917,6 +1904,19 @@ references:
     typeParameters:
     - type: 18a275b1
       description: <p>the stage of the parent definition to return to after attaching this definition </p>
+- uid: com.microsoft.azure.management.batchai._tool_type_settings._chainer_1c1c4969d29ebe2316080335426dc9e77
+  parent: com.microsoft.azure.management.batchai
+  href: com.microsoft.azure.management.batchai._tool_type_settings._chainer_1c1c4969d29ebe2316080335426dc9e77.yml
+  name: ToolTypeSettings.Chainer.DefinitionStages.WithPython<ParentT>
+  nameWithType: ToolTypeSettings.Chainer.DefinitionStages.WithPython<ParentT>
+  fullName: com.microsoft.azure.management.batchai.ToolTypeSettings.Chainer.DefinitionStages.WithPython<ParentT>
+  type: Interface
+  summary: <p>Specifies python script file path to execute the job. </p>
+  syntax:
+    content: public interface WithPython<ParentT>
+    typeParameters:
+    - type: 18a275b1
+      description: <p>the stage of the parent definition to return to after attaching this definition </p>
 - uid: com.microsoft.azure.management.batchai._tool_type_settings._definitioa9c0125b24ff99cf1227a780a99b8bd0
   parent: com.microsoft.azure.management.batchai
   href: com.microsoft.azure.management.batchai._tool_type_settings._definitioa9c0125b24ff99cf1227a780a99b8bd0.yml
@@ -1930,23 +1930,23 @@ references:
     typeParameters:
     - type: c1a5ebc4
       description: <p>next definition stage type </p>
-- uid: com.microsoft.azure.management.batchai._azure_blob_file_system._defind5e47f7519200de0319dab6b1f8c25df
-  parent: com.microsoft.azure.management.batchai
-  href: com.microsoft.azure.management.batchai._azure_blob_file_system._defind5e47f7519200de0319dab6b1f8c25df.yml
-  name: AzureBlobFileSystem.DefinitionStages.WithRelativeMountPath<ParentT>
-  nameWithType: AzureBlobFileSystem.DefinitionStages.WithRelativeMountPath<ParentT>
-  fullName: com.microsoft.azure.management.batchai.AzureBlobFileSystem.DefinitionStages.WithRelativeMountPath<ParentT>
-  type: Interface
-  syntax:
-    content: public interface WithRelativeMountPath<ParentT>
-    typeParameters:
-    - type: 18a275b1
 - uid: com.microsoft.azure.management.batchai._azure_file_share._definition_24ae3df5b46d6a156a23af4b24e29490
   parent: com.microsoft.azure.management.batchai
   href: com.microsoft.azure.management.batchai._azure_file_share._definition_24ae3df5b46d6a156a23af4b24e29490.yml
   name: AzureFileShare.DefinitionStages.WithRelativeMountPath<ParentT>
   nameWithType: AzureFileShare.DefinitionStages.WithRelativeMountPath<ParentT>
   fullName: com.microsoft.azure.management.batchai.AzureFileShare.DefinitionStages.WithRelativeMountPath<ParentT>
+  type: Interface
+  syntax:
+    content: public interface WithRelativeMountPath<ParentT>
+    typeParameters:
+    - type: 18a275b1
+- uid: com.microsoft.azure.management.batchai._azure_blob_file_system._defind5e47f7519200de0319dab6b1f8c25df
+  parent: com.microsoft.azure.management.batchai
+  href: com.microsoft.azure.management.batchai._azure_blob_file_system._defind5e47f7519200de0319dab6b1f8c25df.yml
+  name: AzureBlobFileSystem.DefinitionStages.WithRelativeMountPath<ParentT>
+  nameWithType: AzureBlobFileSystem.DefinitionStages.WithRelativeMountPath<ParentT>
+  fullName: com.microsoft.azure.management.batchai.AzureBlobFileSystem.DefinitionStages.WithRelativeMountPath<ParentT>
   type: Interface
   syntax:
     content: public interface WithRelativeMountPath<ParentT>
@@ -1963,6 +1963,15 @@ references:
     content: public interface WithRelativeMountPath<ParentT>
     typeParameters:
     - type: 18a275b1
+- uid: com.microsoft.azure.management.batchai._batch_a_i_cluster._update_stages._with_scale_settings
+  parent: com.microsoft.azure.management.batchai
+  href: com.microsoft.azure.management.batchai._batch_a_i_cluster._update_stages._with_scale_settings.yml
+  name: BatchAICluster.UpdateStages.WithScaleSettings
+  nameWithType: BatchAICluster.UpdateStages.WithScaleSettings
+  fullName: com.microsoft.azure.management.batchai.BatchAICluster.UpdateStages.WithScaleSettings
+  type: Interface
+  syntax:
+    content: public interface WithScaleSettings
 - uid: com.microsoft.azure.management.batchai._batch_a_i_cluster._definition_stages._with_scale_settings
   parent: com.microsoft.azure.management.batchai
   href: com.microsoft.azure.management.batchai._batch_a_i_cluster._definition_stages._with_scale_settings.yml
@@ -1971,15 +1980,6 @@ references:
   fullName: com.microsoft.azure.management.batchai.BatchAICluster.DefinitionStages.WithScaleSettings
   type: Interface
   summary: <p>Specifies scale settings for the cluster. </p>
-  syntax:
-    content: public interface WithScaleSettings
-- uid: com.microsoft.azure.management.batchai._batch_a_i_cluster._update_stages._with_scale_settings
-  parent: com.microsoft.azure.management.batchai
-  href: com.microsoft.azure.management.batchai._batch_a_i_cluster._update_stages._with_scale_settings.yml
-  name: BatchAICluster.UpdateStages.WithScaleSettings
-  nameWithType: BatchAICluster.UpdateStages.WithScaleSettings
-  fullName: com.microsoft.azure.management.batchai.BatchAICluster.UpdateStages.WithScaleSettings
-  type: Interface
   syntax:
     content: public interface WithScaleSettings
 - uid: com.microsoft.azure.management.batchai._batch_a_i_cluster._definition_stages._with_setup_task
@@ -2087,6 +2087,15 @@ references:
   summary: <p>Specifies the credentials to use for authentication on each of the nodes of a cluster. </p>
   syntax:
     content: public interface WithUserCredentials
+- uid: com.microsoft.azure.management.batchai._batch_a_i_file_server._definition_stages._with_user_name
+  parent: com.microsoft.azure.management.batchai
+  href: com.microsoft.azure.management.batchai._batch_a_i_file_server._definition_stages._with_user_name.yml
+  name: BatchAIFileServer.DefinitionStages.WithUserName
+  nameWithType: BatchAIFileServer.DefinitionStages.WithUserName
+  fullName: com.microsoft.azure.management.batchai.BatchAIFileServer.DefinitionStages.WithUserName
+  type: Interface
+  syntax:
+    content: public interface WithUserName
 - uid: com.microsoft.azure.management.batchai._batch_a_i_cluster._definition_stages._with_user_name
   parent: com.microsoft.azure.management.batchai
   href: com.microsoft.azure.management.batchai._batch_a_i_cluster._definition_stages._with_user_name.yml
@@ -2095,15 +2104,6 @@ references:
   fullName: com.microsoft.azure.management.batchai.BatchAICluster.DefinitionStages.WithUserName
   type: Interface
   summary: <p>Specifies the name of the administrator account that gets created on each of the nodes of a cluster. </p>
-  syntax:
-    content: public interface WithUserName
-- uid: com.microsoft.azure.management.batchai._batch_a_i_file_server._definition_stages._with_user_name
-  parent: com.microsoft.azure.management.batchai
-  href: com.microsoft.azure.management.batchai._batch_a_i_file_server._definition_stages._with_user_name.yml
-  name: BatchAIFileServer.DefinitionStages.WithUserName
-  nameWithType: BatchAIFileServer.DefinitionStages.WithUserName
-  fullName: com.microsoft.azure.management.batchai.BatchAIFileServer.DefinitionStages.WithUserName
-  type: Interface
   syntax:
     content: public interface WithUserName
 - uid: com.microsoft.azure.management.batchai._batch_a_i_cluster._definition_stages._with_v_m_priority
@@ -2115,15 +2115,6 @@ references:
   type: Interface
   syntax:
     content: public interface WithVMPriority
-- uid: com.microsoft.azure.management.batchai._batch_a_i_file_server._definition_stages._with_v_m_size
-  parent: com.microsoft.azure.management.batchai
-  href: com.microsoft.azure.management.batchai._batch_a_i_file_server._definition_stages._with_v_m_size.yml
-  name: BatchAIFileServer.DefinitionStages.WithVMSize
-  nameWithType: BatchAIFileServer.DefinitionStages.WithVMSize
-  fullName: com.microsoft.azure.management.batchai.BatchAIFileServer.DefinitionStages.WithVMSize
-  type: Interface
-  syntax:
-    content: public interface WithVMSize
 - uid: com.microsoft.azure.management.batchai._batch_a_i_cluster._definition_stages._with_v_m_size
   parent: com.microsoft.azure.management.batchai
   href: com.microsoft.azure.management.batchai._batch_a_i_cluster._definition_stages._with_v_m_size.yml
@@ -2132,5 +2123,14 @@ references:
   fullName: com.microsoft.azure.management.batchai.BatchAICluster.DefinitionStages.WithVMSize
   type: Interface
   summary: <p>The stage of a Batch AI cluster definition allowing to specify virtual machine size. All virtual machines in a cluster are the same size. For information about available VM sizes for clusters using images from the Virtual Machines Marketplace (see Sizes for Virtual Machines (Linux) or Sizes for Virtual Machines (Windows). Batch AI service supports all <xref uid="com.microsoft.azure.management._azure" data-throw-if-not-resolved="false">Azure</xref> VM sizes except STANDARD_A0 and those with premium storage (STANDARD_GS, STANDARD_DS, and STANDARD_DSV2 series). </p>
+  syntax:
+    content: public interface WithVMSize
+- uid: com.microsoft.azure.management.batchai._batch_a_i_file_server._definition_stages._with_v_m_size
+  parent: com.microsoft.azure.management.batchai
+  href: com.microsoft.azure.management.batchai._batch_a_i_file_server._definition_stages._with_v_m_size.yml
+  name: BatchAIFileServer.DefinitionStages.WithVMSize
+  nameWithType: BatchAIFileServer.DefinitionStages.WithVMSize
+  fullName: com.microsoft.azure.management.batchai.BatchAIFileServer.DefinitionStages.WithVMSize
+  type: Interface
   syntax:
     content: public interface WithVMSize
