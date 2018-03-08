@@ -315,7 +315,7 @@ references:
 
     <p>
 
-      <b>Remarks:</b> This method is invoked by actor runtime prior to: <itemizedlist><listitem><p>Invoking an actor interface method when a client request comes. </p></listitem><listitem><p>Invoking a method on <xref uid="microsoft.servicefabric.actors._remindable" data-throw-if-not-resolved="false">Remindable</xref> interface when a reminder fires. </p></listitem><listitem><p>Invoking a timer callback when timer fires. </p></listitem></itemizedlist></p>
+      <b>Remarks:</b> This method is invoked by actor runtime prior to: <ul><li><p>Invoking an actor interface method when a client request comes. </p></li><li><p>Invoking a method on <xref uid="microsoft.servicefabric.actors._remindable" data-throw-if-not-resolved="false">Remindable</xref> interface when a reminder fires. </p></li><li><p>Invoking a timer callback when timer fires. </p></li></ul></p>
   syntax:
     content: protected CompletableFuture<?> onPostActorMethodAsync(ActorMethodContext actorMethodContext)
     parameters:
@@ -337,7 +337,7 @@ references:
 
     <p>
 
-      <b>Remarks:</b>This method is invoked by actor runtime prior to: <itemizedlist><listitem><p>Invoking an actor interface method when a client request comes. </p></listitem><listitem><p>Invoking a method on <xref uid="microsoft.servicefabric.actors._remindable" data-throw-if-not-resolved="false">Remindable</xref> interface when a reminder fires. </p></listitem><listitem><p>Invoking a timer callback when timer fires. </p></listitem></itemizedlist></p>
+      <b>Remarks:</b>This method is invoked by actor runtime prior to: <ul><li><p>Invoking an actor interface method when a client request comes. </p></li><li><p>Invoking a method on <xref uid="microsoft.servicefabric.actors._remindable" data-throw-if-not-resolved="false">Remindable</xref> interface when a reminder fires. </p></li><li><p>Invoking a timer callback when timer fires. </p></li></ul></p>
   syntax:
     content: protected CompletableFuture<?> onPreActorMethodAsync(ActorMethodContext actorMethodContext)
     parameters:

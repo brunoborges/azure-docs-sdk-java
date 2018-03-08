@@ -66,21 +66,21 @@ items:
 
       <orderedlist>
 
-        <listitem>
+        <li>
 
           <p>
 
             <xref uid="" data-throw-if-not-resolved="false">system.fabric.ReplicaRole#Primary</xref> – Represents the highest sequence number for which a <b>quorum</b> of secondary replicas have applied the operation.  </p>
 
-        </listitem>
+        </li>
 
-        <listitem>
+        <li>
 
           <p>
 
             <xref uid="" data-throw-if-not-resolved="false">system.fabric.ReplicaRole#ActiveSecondary</xref> – Represents the highest sequence number that has been received by the secondary replicator from the primary.  </p>
 
-        </listitem>
+        </li>
 
       </orderedlist>
 
@@ -119,21 +119,21 @@ items:
 
       <orderedlist>
 
-        <listitem>
+        <li>
 
           <p>
 
             <xref uid="" data-throw-if-not-resolved="false">system.fabric.ReplicaRole#Primary</xref> – Represents the highest sequence number for which <b>all</b> the secondary replicas have applied the operation. </p>
 
-        </listitem>
+        </li>
 
-        <listitem>
+        <li>
 
           <p>
 
             <xref uid="" data-throw-if-not-resolved="false">system.fabric.ReplicaRole#ActiveSecondary</xref> – Represents the highest sequence number that has been applied by the user service replica. </p>
 
-        </listitem>
+        </li>
 
       </orderedlist>
 
@@ -172,7 +172,7 @@ items:
 
       <orderedlist>
 
-        <listitem>
+        <li>
 
           <p></p>
 
@@ -182,9 +182,9 @@ items:
 
           <p></p>
 
-        </listitem>
+        </li>
 
-        <listitem>
+        <li>
 
           <p></p>
 
@@ -194,7 +194,7 @@ items:
 
           <p></p>
 
-        </listitem>
+        </li>
 
       </orderedlist>
 
@@ -233,21 +233,21 @@ items:
 
       <orderedlist>
 
-        <listitem>
+        <li>
 
           <p>
 
             <xref uid="" data-throw-if-not-resolved="false">system.fabric.ReplicaRole#Primary</xref> – Represents the latest sequence number of the operation that is available in the queue. </p>
 
-        </listitem>
+        </li>
 
-        <listitem>
+        <li>
 
           <p>
 
             <xref uid="" data-throw-if-not-resolved="false">system.fabric.ReplicaRole#ActiveSecondary</xref> – Represents the latest sequence number of the operation that is available in the queue. </p>
 
-        </listitem>
+        </li>
 
       </orderedlist>
 
@@ -416,21 +416,21 @@ references:
 
       <orderedlist>
 
-        <listitem>
+        <li>
 
           <p>
 
             <xref uid="" data-throw-if-not-resolved="false">system.fabric.ReplicaRole#Primary</xref> – Represents the highest sequence number for which <b>all</b> the secondary replicas have applied the operation. </p>
 
-        </listitem>
+        </li>
 
-        <listitem>
+        <li>
 
           <p>
 
             <xref uid="" data-throw-if-not-resolved="false">system.fabric.ReplicaRole#ActiveSecondary</xref> – Represents the highest sequence number that has been applied by the user service replica. </p>
 
-        </listitem>
+        </li>
 
       </orderedlist>
 

@@ -282,7 +282,7 @@ items:
 
     <p>
 
-      <b>Remarks:</b> This method is invoked by actor runtime prior to: <itemizedlist><listitem><p>Invoking an actor interface method when a client request comes. </p></listitem><listitem><p>Invoking a method on <xref uid="microsoft.servicefabric.actors._remindable" data-throw-if-not-resolved="false">Remindable</xref> interface when a reminder fires. </p></listitem><listitem><p>Invoking a timer callback when timer fires. </p></listitem></itemizedlist></p>
+      <b>Remarks:</b> This method is invoked by actor runtime prior to: <ul><li><p>Invoking an actor interface method when a client request comes. </p></li><li><p>Invoking a method on <xref uid="microsoft.servicefabric.actors._remindable" data-throw-if-not-resolved="false">Remindable</xref> interface when a reminder fires. </p></li><li><p>Invoking a timer callback when timer fires. </p></li></ul></p>
   syntax: &o2
     content: protected CompletableFuture<?> onPostActorMethodAsync(ActorMethodContext actorMethodContext)
     parameters:
@@ -313,7 +313,7 @@ items:
 
     <p>
 
-      <b>Remarks:</b>This method is invoked by actor runtime prior to: <itemizedlist><listitem><p>Invoking an actor interface method when a client request comes. </p></listitem><listitem><p>Invoking a method on <xref uid="microsoft.servicefabric.actors._remindable" data-throw-if-not-resolved="false">Remindable</xref> interface when a reminder fires. </p></listitem><listitem><p>Invoking a timer callback when timer fires. </p></listitem></itemizedlist></p>
+      <b>Remarks:</b>This method is invoked by actor runtime prior to: <ul><li><p>Invoking an actor interface method when a client request comes. </p></li><li><p>Invoking a method on <xref uid="microsoft.servicefabric.actors._remindable" data-throw-if-not-resolved="false">Remindable</xref> interface when a reminder fires. </p></li><li><p>Invoking a timer callback when timer fires. </p></li></ul></p>
   syntax: &o1
     content: protected CompletableFuture<?> onPreActorMethodAsync(ActorMethodContext actorMethodContext)
     parameters:
@@ -691,7 +691,7 @@ references:
 
     <p>
 
-      <b>Remarks:</b>This method is invoked by actor runtime prior to: <itemizedlist><listitem><p>Invoking an actor interface method when a client request comes. </p></listitem><listitem><p>Invoking a method on <xref uid="microsoft.servicefabric.actors._remindable" data-throw-if-not-resolved="false">Remindable</xref> interface when a reminder fires. </p></listitem><listitem><p>Invoking a timer callback when timer fires. </p></listitem></itemizedlist></p>
+      <b>Remarks:</b>This method is invoked by actor runtime prior to: <ul><li><p>Invoking an actor interface method when a client request comes. </p></li><li><p>Invoking a method on <xref uid="microsoft.servicefabric.actors._remindable" data-throw-if-not-resolved="false">Remindable</xref> interface when a reminder fires. </p></li><li><p>Invoking a timer callback when timer fires. </p></li></ul></p>
   syntax: *o1
 - uid: microsoft.servicefabric.actors._actor_base.onPostActorMethodAsync(ActorMethodContext)
   parent: microsoft.servicefabric.actors._actor_base
@@ -705,7 +705,7 @@ references:
 
     <p>
 
-      <b>Remarks:</b> This method is invoked by actor runtime prior to: <itemizedlist><listitem><p>Invoking an actor interface method when a client request comes. </p></listitem><listitem><p>Invoking a method on <xref uid="microsoft.servicefabric.actors._remindable" data-throw-if-not-resolved="false">Remindable</xref> interface when a reminder fires. </p></listitem><listitem><p>Invoking a timer callback when timer fires. </p></listitem></itemizedlist></p>
+      <b>Remarks:</b> This method is invoked by actor runtime prior to: <ul><li><p>Invoking an actor interface method when a client request comes. </p></li><li><p>Invoking a method on <xref uid="microsoft.servicefabric.actors._remindable" data-throw-if-not-resolved="false">Remindable</xref> interface when a reminder fires. </p></li><li><p>Invoking a timer callback when timer fires. </p></li></ul></p>
   syntax: *o2
 - uid: microsoft.servicefabric.actors._actor_method_context.getMethodName()
   parent: microsoft.servicefabric.actors._actor_method_context
