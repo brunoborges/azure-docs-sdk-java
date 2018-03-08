@@ -323,7 +323,7 @@ items:
     startLine: 80
   package: system.fabric.health
   summary: >-
-    <p>Gets a value that indicates whetherÂ the health event has expired.</p>
+    <p>Gets a value that indicates whether the health event has expired.</p>
 
     <p>
 
